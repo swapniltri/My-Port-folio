@@ -1,0 +1,403 @@
+body {
+    margin-top:0;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    background-image: url(/images/climpek.png);
+}
+
+h2 {
+    color:#fff;
+    font-family: 'Scheherazade', cursive;
+}
+
+p {
+    color:#59405c;
+    font-family: 'Scheherazade', serif;
+    font-size:2rem;
+}
+
+.last {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.home-anchor {
+    margin:20px;
+    color:#6a197d;
+    font-family: 'Scheherazade', serif;
+    font-size:1.5rem;
+}
+
+.header {
+    text-align: center;
+    padding:30px;
+    background-color:#fff;
+}
+
+.header-heading {
+    font-family: 'Tangerine', cursive;
+    font-size:5rem;
+    color:#6a197d;
+}
+
+.header-content {
+    font-family: 'Scheherazade', serif;
+    font-size:1.35rem;
+    color:#336d88;
+}
+
+.img {
+    z-index:-1;
+    position:absolute;
+    width:100%;
+    height:700px;
+    border-radius: 10px;
+}
+
+.education {
+    text-align:center;
+    margin-top:100px;
+}
+
+.icon-whole {
+    text-align:center;
+    margin-top:500px;
+}
+
+.study {
+    background-color:#fff;
+    padding:50px;
+}
+
+.icon-heading {
+    font-family: 'Tangerine', cursive;
+    font-size:4rem;
+    color:#6a197d;
+    padding:70px 20px 20px 20px;
+}
+
+.icon-content-heading {
+    font-family: 'Scheherazade', serif;
+    font-size:3rem;
+    color:#59405c;
+}
+
+.googleIcon {
+    padding-bottom: 20px;
+    color:#59405c;
+}
+
+.skill-heading {
+    color:#6a197d;
+    font-family: 'Tangerine', cursive;
+    text-align:center;
+    font-size:4rem;
+    padding:70px 20px 70px 20px;
+}
+
+.carousel-image {
+    display:inline-block;
+    width:150px;
+    height:150px;
+    border-radius:100%;
+    margin:3%;
+}
+
+.carousel-section {
+    text-align:center;
+    background-color:#12cad6;
+}
+
+.carousel-item-heading {
+    color:#fff;
+    font-family: 'Scheherazade', serif;
+    font-size:3rem;
+}
+
+.carousel-item {
+    padding:70px;
+}
+
+.secrets {
+    text-align:center;
+    padding:30px 0 70px 0;
+}
+
+.secrets-heading {
+    color:#6a197d;
+    font-family: 'Tangerine', cursive;
+    padding:70px 20px 70px 20px;
+    font-size:4rem;
+}
+
+.secrets-content-heading {
+    color:#6a197d;
+    font-family: 'Scheherazade', serif;
+    font-size:3rem;
+}
+
+.line {
+    border-width:3px;
+    width:70%;
+    border-color:#6a197d;
+}
+
+.combine {
+    background-color:#12cad6;
+    text-align:center;
+    margin-top:70px;
+    padding:100px 50px 50px 50px;
+}
+
+.combine-div {
+    margin:50px 250px 250px 250px;
+}
+
+.interest {
+    margin:100px auto 200px auto;
+} 
+
+.interest2 {
+    padding-bottom:50px;
+}
+
+.interest-heading {
+    font-family: 'Tangerine', cursive;
+    font-size:4rem;
+}
+
+.interest-image-1 {
+    width:200px;
+    height:200px;
+    border-radius:10%;
+    box-shadow:0 4px 8px rgb(138, 137, 137);
+    float:left;
+    margin-right:40px;
+}
+
+.interest-image-2 {
+    width:200px;
+    height:200px;
+    border-radius:10%;
+    box-shadow:0 4px 8px rgb(138, 137, 137);
+    float:right;
+    margin-left:40px;
+}
+
+.interest-p {
+    text-align:left;
+    color:#59405c;
+}
+
+.contact-icon {
+    padding:10px;
+    color:#59405c;
+}
+
+.contact-a {
+    font-family: 'Scheherazade', serif;
+    padding:10px;
+    color:#59405c;
+    font-size:2rem;
+}
+
+.contact-p {
+    font-family: 'Scheherazade', serif;
+    color:#6a197d;
+    font-size:1.5rem;
+    margin-top:50px;
+}
+
+.contact {
+    text-align:center;
+    margin:100px 0 0 0;
+}
+
+.contact-heading {
+    color:#6a197d;
+    font-family: 'Tangerine', cursive;
+    font-size:4rem;
+    margin-bottom:50px;
+}
+
+/******************login-ejs**************************/
+
+.login {
+    text-align:center;
+}
+
+.login-heading {
+    background-color:#87dfd6;
+    padding:0;
+}
+
+.header-heading-login {
+    font-family: 'Tangerine', cursive;
+    color:#fff;
+    font-size:5rem;
+    padding:30px;
+}
+
+.login-form {
+    font-family: 'Scheherazade', serif;
+    font-size: 2rem;
+    padding: 50px 200px 0;
+}
+
+.login-warning {
+    color:#87dfd6;
+    font-size:2 rem;
+}
+
+/******************signup-ejs**************************/
+
+.signup {
+    text-align:center;
+}
+
+.signup-heading {
+    background-color:#87dfd6;
+    padding:0;
+}
+
+.header-heading-signup {
+    font-family: 'Tangerine', cursive;
+    color:#fff;
+    font-size:5rem;
+    padding:30px;
+}
+
+.signup-form {
+    font-family: 'Scheherazade', serif;
+    font-size: 2rem;
+    padding:50px 200px 0;
+}
+
+.label {
+    color:#59405c;
+}
+
+.signup-warning {
+    color:red;
+    font-size:1.5rem;
+}
+
+/******************secrets-ejs**************************/
+
+.secrets {
+    padding-top:0;
+    padding-bottom:15px;
+    text-align:center;
+    margin-top:0;
+}
+
+.secrets-heading-div {
+    background-color:#87dfd6;
+}
+
+.secrets-header {
+    color:#fff;
+}
+
+.secrets-form {
+    font-size:1.75rem;
+    width:50%;
+    margin:60px auto 0 auto;
+    background-color: #fff;
+    box-shadow:0 1px 5px rgb(138, 137, 137);
+    border-radius:10px;
+    resize:none;
+}
+
+.secrets-button {
+    border-radius:100%;
+    background-color:#87dfd6;
+    border:none;
+    color:#fff;
+    width:42px;
+    height:40px;
+    position:relative;
+    font-size:1.2rem;
+    left:280px;
+    top:20px;
+    font-family: 'Scheherazade', serif;
+}
+
+.secrets-input {
+    font-family: 'Scheherazade', serif;
+    color:#59405c;
+    border:none;
+    width:90%;
+    outline:none;
+    padding:10px;
+}
+
+.secrets-content {
+    padding:10px 5px 0 0;
+}
+
+.insert-whole {
+    text-align:center;
+    padding:0 50px 0;
+}
+
+.insert-secrets {
+    background-color:#fff;
+    margin:50px;
+    text-align:center;
+    box-shadow:0 1px 5px rgb(138, 137, 137);
+    border-radius:10px;
+    padding:20px;
+}
+
+.insert-heading {
+    font-family: 'Scheherazade', serif;
+    font-size:3rem;
+    color:#59405c;
+}
+
+.insert-content {
+    font-family: 'Scheherazade', serif;
+    color:#59405c;
+}
+
+.insert-button {
+    font-family: 'Scheherazade', serif;
+    background-color:#87dfd6;
+    color:#fff;
+    border:none;
+    font-size:1.5rem;
+    width:100px;
+    height:40px;
+    border-radius:5px;
+}
+
+/************************hover**********************/
+
+.home-anchor:hover {
+    text-decoration:none;
+    color:grey;
+}
+
+.contact-a:hover {
+    text-decoration:none;
+    color:grey;
+}
+
+.home-button {
+    text-align:center;
+    font-family: 'Scheherazade', serif;
+    font-size:5rem;
+}
+
+
+
+
+
+
+
+.span:after,
+.span:before{
+    content:"\00a0\00a0\00a0\00a0\00a0";
+    text-decoration:line-through;
+}

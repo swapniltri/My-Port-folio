@@ -1,0 +1,24 @@
+<%- include("partials/header") -%>
+<div class="login">
+  <div class="login-heading">
+  <h1 class="header-heading-login">Don't keep your Secrets hidden , express it anonymously</h1>
+  </div>
+  <form class="login-form" action="/login" method="post">
+    <div class="form-group">
+      <label class="label" for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
+      <p class="login-warning"><%=signup%></p>
+    </div>
+    <div class="form-group">
+      <label class="label" for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+      <p class="signup-warning"><%=incpass%></p>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary btn-lg">Log-In</button>
+    <a href="/signup" type="submit" class="btn btn-primary btn-lg">Sign-Up</a>
+  </form>
+
+</div>
+
+<%- include("partials/footer") -%>
