@@ -19,9 +19,11 @@ const session = require("express-session");
 const MongoStore = require("connect-mongodb-session")(session); //Local storage on mongoDB atlas.
 
 const DB = process.env.DB_URL;
+
 mongoose.connect(DB,{useNewUrlParser:true,useUnifiedTopology:true}).then(() => {
-    console.log("connection successful");
-}).catch((err) => console.log("No connection"));
+    console.log("Success");
+}).catch((err) => console.log("Failed"));
+
 
 //Establishing the session connection with mongoDB, after connecting the application to mongoDB
 
